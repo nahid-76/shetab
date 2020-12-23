@@ -290,7 +290,10 @@ background-color: transparent;
 	.button-group{
 		margin-right: 3.5rem;
 	}
-	}
+	/* .special-adds{
+		height: 62rem;
+	} */
+}
 	/* @media (min-width : 768px){
 		.header{
 			background: url('../images//HeaderBackground2.png') 0 40%/cover no-repeat ,url('../images//HeaderBackground.png') 0 -50px/cover no-repeat;
@@ -299,11 +302,16 @@ background-color: transparent;
 		.searchBox-erea{
 			width: 80%;
 		}
-	 */
-	}
+	
+	} */
 
-
-
+.special-adds{
+	height: 35rem;
+	background: url('../images//estee-janssens-745864-unsplash.png') 0 -353px/cover no-repeat;
+}
+/* .adds-card{
+	width: 30%;
+} */
 
 
 
