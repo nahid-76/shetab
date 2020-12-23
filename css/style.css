@@ -224,7 +224,7 @@ blockquote {
 	url('../images/Vector\ Smart\ 3png') 0 40%/cover no-repeat,
 	url('../images//HeaderBackground2.png') 0 40%/cover no-repeat ,
 	url('../images//HeaderBackground.png') 0 -240px/cover no-repeat;
-	height: 70vh;
+	height: 30rem;
 	
 }
 .header .navbar .button-group .yellow-button{
@@ -279,6 +279,14 @@ background-color: transparent;
 	direction: rtl;
 	text-align: right;
 }
+.my-btn{
+	background-color: #bd70ff;
+}
+.form-input{
+	border-radius: 20px;
+    border: none !important;
+}
+
 @media (max-width : 576px){
 	.header{
 		background: url('../images//HeaderBackground2.png') 0 40%/cover no-repeat ,url('../images//HeaderBackground.png') -232px 0/cover no-repeat;
@@ -290,10 +298,12 @@ background-color: transparent;
 	.button-group{
 		margin-right: 3.5rem;
 	}
-	/* .special-adds{
+	.special-adds{
 		height: 62rem;
-	} */
+		background: url('../images//estee-janssens-745864-unsplash.png') 0 -133px/cover no-repeat;
+	}
 }
+
 	/* @media (min-width : 768px){
 		.header{
 			background: url('../images//HeaderBackground2.png') 0 40%/cover no-repeat ,url('../images//HeaderBackground.png') 0 -50px/cover no-repeat;
@@ -309,9 +319,7 @@ background-color: transparent;
 	height: 35rem;
 	background: url('../images//estee-janssens-745864-unsplash.png') 0 -353px/cover no-repeat;
 }
-/* .adds-card{
-	width: 30%;
-} */
+
 
 
 
