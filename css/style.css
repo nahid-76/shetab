@@ -279,12 +279,21 @@ background-color: transparent;
 	direction: rtl;
 	text-align: right;
 }
-.my-btn{
-	background-color: #bd70ff;
+.form-button{
+	background-color: #fdb71b;
+	border: none;
+	border-radius: 10px;
+}
+.form-button:focus{
+	outline: none;
 }
 .form-input{
 	border-radius: 20px;
     border: none !important;
+}
+.carousel-section{
+	background: url('../images//carouselbackground.png') 0 -227px/cover no-repeat;
+	height: 20rem;
 }
 
 @media (max-width : 576px){
