@@ -291,10 +291,37 @@ background-color: transparent;
 	border-radius: 20px;
     border: none !important;
 }
+.global-employ{
+	border-radius: 20px;
+	height: 528px;
+	overflow-y: scroll;
+	scrollbar-color: rebeccapurple green;
+}
+.global-employ-card{
+	border-radius: 10px;
+}
 .carousel-section{
 	background: url('../images//carouselbackground.png') 0 -227px/cover no-repeat;
 	height: 20rem;
 }
+.middle-section {
+	margin-top: -80px;
+}
+::-webkit-scrollbar {
+	width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background: #f2a700;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+	background: #f2a700;
+  }
 
 @media (max-width : 576px){
 	.header{
@@ -353,16 +380,6 @@ background-color: transparent;
 
 
 .footer{
-	color: #fff;
-	font-weight: 300;
-	font-size: 0.7em;
-	text-align: center;
-	direction: ltr;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
    line-height: 1.5rem;
-   padding-top: 3.75rem;
     background: linear-gradient(to right, rgba(63, 63, 63, .9), rgba(63, 63, 63, .9)) ,url('../images/FooterBackground\ .png') 0 40%/cover no-repeat;
-	height: 410px;
-	direction: rtl;
 }
