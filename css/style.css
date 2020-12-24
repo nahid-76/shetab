@@ -7,6 +7,11 @@ body {
 	height: 100vh;
 	
 }
+html,body{
+	overflow-x:hidden;
+    width:100%;
+    position:relative;
+}
 
 h1, h2, h3, h4, h5, h6,input, textarea {
 	font-family: iranyekan !important;
@@ -168,7 +173,7 @@ background-color: transparent;
 	outline: none;
 }
 .info-form>form  .form-input{
-	border-radius: 20px;
+	border-radius: 10px;
     border: none !important;
 }
 
@@ -259,29 +264,45 @@ background-color: transparent;
   
   
 
-@media (max-width : 576px){
+  @media only screen 
+  and (max-width : 576px){
 	.header{
 		background: url('../images//HeaderBackground2.png') 0 40%/cover no-repeat ,url('../images//HeaderBackground.png') -232px 0/cover no-repeat;
 		height: 100vh;
+	
 	}
-.header .searchBox-erea{
+    .header .searchBox-erea{
 		width: 100%;
 	}
-	.button-group{
+	header .navbar .button-group{
 		margin-right: 3.5rem;
 	}
 	.special-adds{
-		/* height: 62rem; */
 		background: url('../images//estee-janssens-745864-unsplash.png') 0 -96px/cover no-repeat;
 	}
 	.carousel-section{
 		background: url('../images//carouselbackground.png') -197px 30px/cover no-repeat;
-		height: 30rem;
 	}
 }
 
 	
-
+@media only screen 
+and (min-device-width : 577px) 
+and (max-device-width : 1024px) {
+	.header{
+		background: url('../images//HeaderBackground2.png') 0 40%/cover no-repeat ,url('../images//HeaderBackground.png') 0 0/cover no-repeat;
+		height: 50vh;
+	}
+	.header .searchBox-erea{
+		width: 75%;
+	}
+	header .navbar .button-group{
+		margin-right: 4rem;
+	}
+	.special-adds{
+		background: url('../images//estee-janssens-745864-unsplash.png') 0 -100px/cover no-repeat;
+	}
+}
 
 
 

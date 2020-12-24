@@ -28,7 +28,7 @@
                         <i class="fa fa-align-justify" aria-hidden="true"></i>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto ">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto d-flex flex-md-row ">
                             <li class="nav-item">
                                 <a class="nav-link text-light text-small px-4 " aria-current="page" href="#">خانه</a>
                             </li>
@@ -49,7 +49,7 @@
                                 <a class="nav-link text-light text-small px-4" href="#">تماس با ما</a>
                             </li>
                         </ul>
-                        <div class="button-group d-flex flex-row ">
+                        <div class="button-group d-flex flex-row">
                             <button class="gray-button">ثبت رزومه</button>
                             <button class="yellow-button">درج آگهی</button>
                         </div>
@@ -88,7 +88,7 @@
     </header>
     <div class="special-adds">
         <div class="container h-100 pt-5">
-            <div class="d-flex justify-content-between container px-5">
+            <div class="d-flex justify-content-between">
                 <div class="d-flex flex-column flex-md-row">
                     <h4 class="text-nowrap">آگهی های ویژه</h4>
                     <span class="text-xsmall text-muted mt-3 text-nowrap">آگهی های فوری که سریع نیازمند نیرو
@@ -193,7 +193,7 @@
     <div class="middle-section">
         <div class="container">
             <div class="row">
-                <div class="global-employ col col-lg-6 bg-light p-4">
+                <div class="global-employ col col-md-6 bg-light p-4">
                     <div class="d-flex justify-content-between">
                         <h4>استخدام سراسری</h4>
                         <button class="btn bg-white btn-sm">همه آگهی ها</button>
@@ -307,8 +307,8 @@
                     </div>
 
                 </div>
-                <div class="col col-lg-6 info-form">
-                    <img src="./images//formImg.png">
+                <div class="col col-md-6 info-form">
+                    <img class="mx-auto mx-lg-5" src="./images//formImg.png">
                     <div class="text-center">
                         <h4>سریعتر از بقیه موقعیت های شغلی...</h4>
                         <p class="text-small text-muted">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
@@ -317,23 +317,23 @@
                         </p>
                     </div>
                     <form>
-                        <div class="row">
-                            <div class="col-12 col-md-6">
-                                <input type="text" class="form-input form-control bg-light m-2 p-3"
+                        <div class="row mx-0 w-100">
+                            <div class="col-12 col-md-6 p-1">
+                                <input type="text" class="form-input form-control bg-light  py-3"
                                     placeholder="شماره موبایل را وارد کنید...">
                             </div>
-                            <div class="col-12 col-md-6">
-                                <input type="text" class="form-input form-control bg-light m-2 p-3 "
+                            <div class="col-12 col-md-6 p-1">
+                                <input type="text" class="form-input form-control bg-light  py-3 "
                                     placeholder="استان خود را وارد کنید...">
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12 col-md-6">
-                                <input type="text" class="form-input form-control bg-light m-2 p-3 "
+                        <div class="row mx-0 w-100">
+                            <div class="col-12 col-md-6 p-1">
+                                <input type="text" class="form-input form-control bg-light  py-3 "
                                     placeholder="موقعیت شغلی خود را وارد کنید...">
                             </div>
-                            <div class="col-12 col-md-6">
-                                <select class="custom-select form-input form-control bg-light m-2 p-3 text-muted">
+                            <div class="col-12 col-md-6 p-1">
+                                <select class="custom-select form-input form-control bg-light  py-3 text-muted">
                                     <option selected>میزان حقوق خود را انتخاب کنید...</option>
                                     <option value="1">یک میلیون</option>
                                     <option value="2">دو میلیون</option>
@@ -679,7 +679,7 @@
                     spaceBetween: 20,
                 },
                 768: {
-                    slidesPerView: 4,
+                    slidesPerView: 3,
                     spaceBetween: 40,
                 },
                 1024: {
